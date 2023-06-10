@@ -14,7 +14,7 @@ public class Game {
         // Példányosíts egy Charactert (hívd meg a konstruktorát) ezzel a változóval!
         // Írd ki: Welcome, [játékos neve]!
 
-        System.out.println("Welcome " + player);
+        System.out.println("Welcome " + player.getName() + "!");
         // Készíts egy 3 hosszúságú tömböt Monster-ekből!
 
         Monster[] monsters = new Monster[3];

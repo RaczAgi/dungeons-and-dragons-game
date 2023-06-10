@@ -38,10 +38,10 @@ protected int level;
 }
     public void attack(Monster monster) {
         // Írd ki: [játékos neve] attacks [szötny neve]!
-        System.out.println(name + "attacks" + monster.getName());
+        System.out.println(name + " attacks " + monster.getName());
 
         // Készíts egy damage változót, legyen az értéke a level 10-szerese!
-        int damage = level*10;
+        int damage = level*20;
 
         // Vond le ezt az értéket a szörny health-jéből!
         monster.health = monster.health - damage;
